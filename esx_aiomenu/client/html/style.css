@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+
+body, html {
+	overflow-y: hidden;
+}
+/* main.css */
+button {
+	margin: 9px auto;
+	padding: 10px 24px;
+	cursor: pointer;
+	width: 36.5%;
+	display: block;
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 12px;
+	border: 2.1px solid rgba(13, 76, 173, 1.0);
+	color: white;
+    background-color: #212121;
+    border-radius: 50px;
+    
+}
+
+span {
+	margin: 9px auto;
+	padding: 10px 24px;
+	cursor: pointer;
+	width: 36.5%;
+	display: block;
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 12px;
+	text-align: center; 
+	border: 2.1px solid rgba13, 76, 173, 1.0);
+	color: white;
+    background-color: #212121;
+    border-radius: 50px;
+    
+}
+
+hr {
+	height: 2px;
+	width: 28%;
+	color: #eb0000;
+	background-color: rgba(13, 76, 173, 1.0);
+	border: none;
+}
+
+.general {
+	font-family: 'Rajdhani', sans-serif;
+	height: 700px;
+	background: ;
+	color: white;
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+.vehicles {
+	font-family: 'Rajdhani', sans-serif;
+	height: 800px;
+	background: ;
+	color: white;
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+.doors {
+	font-family: 'Rajdhani', sans-serif;
+	height: 700px;
+	background: ;
+	color: white;
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+.windows {
+	font-family: 'Rajdhani', sans-serif;
+	height: 700px;
+	background: ;
+	color: white;
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+#close {
+	display: inline-block;
+	float: right;
+	padding: 5px;
+	padding-right: 9px;
+	color: rgb(190, 1, 1);
+}
+
+
+/* change look of buttons when hovering over them */
+button:hover {
+	background: -webkit-linear-gradient(left, rgba(190, 1, 1, 0.7) 20%,rgba(13, 76, 173, 0.7) 70%); 
+	border: 1.1px solid rgba(18, 105, 202, 0.7);
+	border-radius: 100px;
+	color: -webkit-linear-gradient(left, rgba(190, 1, 1, 0.7) 20%,rgba(13, 76, 173, 0.7) 70%); 
+}
